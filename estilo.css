@@ -1,0 +1,117 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background: #94228e;
+    color: #eee3ee;
+    padding: 1rem 0;
+}
+
+header .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+ul li { 
+    display: inline;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+ul li a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+section .container { 
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+section h2 { 
+    margin-bottom: 1rem;
+}
+
+.sobre {
+    background: #eee3ee;
+    color: #94228e;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+figure {
+    text-align: center; 
+}
+figcaption {
+    font-style: Arial, sans-serif; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.formacao {
+    background: #eee3ee;
+    color: #94228e;
+    padding: 1rem;
+    margin-bottom: 1rem;
+ }
+
+.projeto {
+    background: #eee3ee;
+    color: #94228e;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contato {
+    background: #eee3ee;
+    color: #94228e;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+}
+
+form label { 
+    margin: 0.5rem 0;
+}
+
+form input, form textarea { 
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button { 
+    background: #94228e;
+    color: #eee3ee;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+footer { 
+    background: #94228e;
+    color: #eee3ee;
+    text-align: center;
+    padding: 1rem 0;
+}
